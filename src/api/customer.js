@@ -66,6 +66,6 @@ module.exports = (app, channel) => {
 
   app.get("/whoami", (req, res, next) => {
     const processId = process.pid;
-    return res.status(200).json({ msg: "/customer : I am Customer Service", processId });
+    return res.status(200).json({ msg: "/customer : HARE KRISHNA", processId });
   });  
 };
